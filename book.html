@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Book a ticket</title>
+    <link rel="stylesheet" type="text/css" href="CSSFile.css"/>
+    </head>
+    <body  background="railway-wallpaper.jpg";>
+        <h1>Book a ticket</h1>
+        <form action="insert.php" method="post" style="text-align: center;" >
+
+                <label  for="pName">Passenger Name:</label><br>
+                <input type="text" name="pName" required><br>
+
+                <label   for="pAge">Age:</label><br>
+                <input type="number" name="pAge" required><br>
+
+                <label  for="pID">ID Proof:</label><br>
+                <input type="text" name="pID" required><br>
+
+                <label for="mobileNo">Mobile No:</label><br>
+                <input type="number" name="pMobNo" required><br>
+
+                <label for="address">Address:</label><br>
+                <input type="text" name="address" required><br>
+
+                <label  for="bStation">Boarding Station:</label><br>
+                <input type="text" name="srcstation" required><br>
+
+                <label  for="dStation">Destination Station:</label><br>
+                <input type="text" name="deststation" required><br>
+
+                <label for="dateJrn">Date of journey:</label><br>
+                <input type="text" name="date" required><br>
+
+                <label for="class">class</label><br>
+
+                <select>
+
+                    <option value="allclass">All Classes</option>
+                    <option value="anubhuti">Anubhuti class(EA)</option>
+                    <option value="ac3A">AC 3 Tier(3A)</option>
+                    <option value="sleeper">Sleeper</option>
+                    <option value="2ndseating">Second Sitting(2S)</option>
+
+                    </select><br>
+
+                    <input type="submit" value="submit"/>
+
+        </form>
+    </body>
+</html>
