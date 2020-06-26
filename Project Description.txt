@@ -1,0 +1,17 @@
+This is a simple 'railway reservation system' mini project that i developed
+as a part of my curricular during semester 5Th.
+
+It has follwing functionalities as of now:
+1-Register User
+2-Login User
+3-Book a ticket
+4-View Tickets History
+5-Cancel a ticket
+6-Log out 
+
+Server used: Xampp/PhpMyAdmin
+Database used:MySQL
+Marktup:HTML
+Design:CSS
+
+
